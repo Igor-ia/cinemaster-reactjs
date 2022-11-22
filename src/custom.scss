@@ -1,0 +1,72 @@
+form {
+    background-color: #fff;
+    padding: 10px;
+}
+
+h1 {
+    text-shadow: 2px 2px 15px #000000;
+}
+
+.add-movie {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.dropdown-user {
+    background-color: red;
+}
+
+.nav-extended {
+    background-image: url(./capa.jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(173, 40, 173);
+}
+
+.nav-title {
+    text-shadow: 2px 2px 15px #000000;
+}
+
+.bg-purple {
+    background-color: rgb(173, 40, 173);
+}
+
+.bg-body {
+    background-color: '#E5E5E5';
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+.card-reveal {
+    height: 0;
+    background-color: white;
+    transition: height .5s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.icon {
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
