@@ -7,15 +7,7 @@ h1 {
     text-shadow: 2px 2px 15px #000000;
 }
 
-.add-movie {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    padding: 20px;
-    border: none;
-    border-radius: 100%;
-    background-color: red;
-}
+//Nav Style
 
 .dropdown-user {
     background-color: red;
@@ -36,13 +28,28 @@ h1 {
     background-color: rgb(173, 40, 173);
 }
 
-.bg-body {
-    background-color: '#E5E5E5';
-}
-
 .active {
     border-bottom: 2px solid white;
 }
+
+//Body Style
+
+.bg-body {
+    background-color: #E5E5E5;
+}
+
+.add-movie {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 100%;
+    background-color: rgb(173, 40, 173);
+}
+
+
+//Card Style
 
 .card-reveal {
     height: 0;
@@ -62,6 +69,13 @@ h1 {
     top: 0;
     right: 20px;
     transform: translateY(-50%);
+}
+
+#activator:hover,
+#close:hover {
+    opacity: 0.8;
+    cursor: pointer;
+
 }
 
 .text-justify {

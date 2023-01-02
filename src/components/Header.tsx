@@ -1,11 +1,10 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Button, Dropdown, Form, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Button, Dropdown, Form } from 'react-bootstrap';
 import { MagnifyingGlass, User } from 'phosphor-react'
 import { useDispatch, useSelector } from 'react-redux';
 
 import * as actions from '../store/modules/auth/actions';
-import { toast } from 'react-toastify';
-import { FormEvent, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from '../services/axios';
 
 export function Header() {
