@@ -52,6 +52,7 @@ export function CardMovie({ movieFavorited = false, data }: CardProps) {
             <div className={`position-absolute bottom-0 w-100 card-reveal ${openCardReveal ? 'h-100' : 'h-0'}`}>
                 <div id='content' className={`${!openCardReveal && 'd-none'} text-center m-3`}>
                     <a
+                        id='close'
                         className='position-absolute top-0 end-0 mt-2 me-2'
                         onClick={() => setOpenCardReveal(false)}
                     ><X size={24} color='black' /></a>
